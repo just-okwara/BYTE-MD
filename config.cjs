@@ -2,12 +2,12 @@ const fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
 module.exports = {
-  "SESSION_ID": process.env.SESSION_ID || "",
+  "PRINCE-MDX~Iewohz03tEzbB0kf88im": process.env.SESSION_ID || "",
   "ALIVE_IMG": process.env.ALIVE_IMG || "https://raw.githubusercontent.com/HyHamza/HyHamza/refs/heads/main/Images/logo.jpg",
   "PREFIX": process.env.PREFIX || ".",
   "AUTO_READ_STATUS": process.env.AUTO_READ_STATUS === 'true',
   "MODE": process.env.MODE || "public",
-  "OWNER_NUMBER": process.env.OWNER_NUMBER || "923072380380",
+  "OWNER_NUMBER": process.env.OWNER_NUMBER || "254108470534",
   "OWNER_NAME": process.env.OWNER_NAME || "Hamza",
   "ALWAYS_ONLINE": process.env.ALWAYS_ONLINE === 'true',
   "PRESENCE": process.env.PRESENCE || "online",
@@ -26,7 +26,7 @@ module.exports = {
   "ANTI_BOT": process.env.ANTI_BOT === 'true',
   "PREMIUM_USERS": process.env.PREMIUM_USERS || "",
   "COUNTRY_BLOCK": process.env.COUNTRY_BLOCK === 'true',
-  "COUNTRY_BLOCK_CODE": process.env.COUNTRY_BLOCK_CODE || "972",
+  "COUNTRY_BLOCK_CODE": process.env.COUNTRY_BLOCK_CODE || "254",
   "EMOJI": process.env.EMOJI || "🙄",
   "AUTO_TYPING": process.env.AUTO_TYPING === 'true'
 };
